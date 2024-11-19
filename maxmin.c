@@ -20,6 +20,6 @@ int main(void){
             max=arr[i];
         }
     }
-    printf("the max is  : %d\n",max);
-    printf("the min is  : %d\n",min);
+    printf("the maximum is  : %d\n",max);
+    printf("the minimum is  : %d\n",min);
 }
