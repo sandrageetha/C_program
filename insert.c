@@ -2,7 +2,7 @@
 #include<stdlib.h>
  
 int main(void){
-    int a[20],i,j,limit,value,loc;
+    int a[20],i,j,limit,val,loc;
     printf("Enter the limit of array :");
     scanf("%d",&limit);
     printf("Enter the array :");
@@ -12,11 +12,11 @@ int main(void){
     printf("Enter the location  :");
     scanf("%d",&loc);
     printf("Enter the value :");
-    scanf("%d",&value);
+    scanf("%d",&val);
     for(i=limit-1;i>=loc-1;i--){
         a[i+1]=a[i];
         }
-    a[i+1]=value;
+    a[i+1]=val;
 
     
     printf("array  is :");
